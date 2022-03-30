@@ -3,6 +3,7 @@
 body {
   font-family: "Source Serif Pro", serif;
   margin: 30px auto;
+  color: #343a40;
 }
 
 hr {
@@ -10,7 +11,7 @@ hr {
   position: relative;
   margin: 12px auto;
   width: calc(100% - 20px);
-  border: 3px solid black;
+  border: 3px solid #343a40;
 }
 hr.reverse {
   transform: scaleX(-1);
@@ -40,10 +41,12 @@ img {
 }
 
 .odd img {
+  margin-top: 60px;
   object-position: right;
 }
 
 .even img {
+  margin-top: 60px;
   object-position: left;
 }
 
@@ -53,13 +56,15 @@ h2, p {
 }
 
 p {
-  line-height: 150%;
+  font-size: 18px;
+  line-height: 160%;
   color: #333333;
 }
 
 h2 {
-  margin-bottom: 20px;
-  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: inherit;
 }
 
 @media only screen and (max-width: 899px) {
@@ -84,7 +89,7 @@ h2 {
     content: "";
     width: 8px;
     height: 8px;
-    border: 6px solid black;
+    border: 6px solid #343a40;
     shape-rendering: crispEdges;
   }
 
@@ -102,7 +107,7 @@ h2 {
     content: "";
     display: block;
     height: 100%;
-    border-left: 6px solid black;
+    border-left: 6px solid #343a40;
   }
 
   .odd::before {
@@ -128,7 +133,7 @@ h2 {
   }
 
   hr {
-    width: calc(30% - 40px);
+    width: calc(20% - 40px);
   }
 
   .even, .odd {
@@ -146,29 +151,29 @@ h2 {
 
   .even .image:before, .odd .content:before {
     background: white;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translate(15px, 15px);
     position: absolute;
     left: -15px;
     display: block;
     content: "";
     width: 12px;
     height: 12px;
-    border: 6px solid black;
+    border: 6px solid #343a40;
     shape-rendering: crispEdges;
   }
 
   .even .image, .odd .content {
-    border-left: 6px solid #000;
-    padding-left: 5%;
+    border-left: 6px solid #343a40;
+    padding-left: 10%;
   }
 
   .even .content, .odd .image {
-    padding-right: 5%;
+    padding-right: 10%;
   }
 
   .content, .image {
     position: relative;
-    padding: 40px 0;
+    padding: 60px 0;
   }
 
   .content {
@@ -176,8 +181,21 @@ h2 {
     max-width: 400px;
   }
 
+  .content h2 {
+    font-weight: 600;
+  }
+
+  .content p {
+    margin-top: 30px;
+  }
+
   .image {
     width: 30%;
+  }
+
+  .image h2 {
+    font-weight: 300;
+    font-size: 60px;
   }
 
   .odd .image {
