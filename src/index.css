@@ -1,13 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap'); 
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Serif Pro", serif;
+  margin: 30px auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+hr {
+  overflow: visible;
+  position: relative;
+  margin: 12px auto;
+  width: calc(100% - 20px);
+  border: 3px solid black;
+}
+hr.reverse {
+  transform: scaleX(-1);
+}
+hr::before, hr::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+  background-image: url("pixel.svg");
+}
+hr::before {
+  top: -15px;
+  left: -15px;
+}
+hr::after {
+  bottom: -15px;
+  right: -15px;
+}
+
+img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.odd img {
+  object-position: right;
+}
+
+.even img {
+  object-position: left;
+}
+
+h2, p {
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  line-height: 150%;
+  color: #333333;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 899px) {
+  body {
+    max-width: 85vw;
+  }
+
+  .odd, .even {
+    position: relative;
+    padding: 20px;
+  }
+
+  .image img {
+    margin-bottom: 20px;
+  }
+
+  .image h2::before {
+    background: white;
+    transform: rotate(45deg) translateY(4px);
+    position: absolute;
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 6px solid black;
+    shape-rendering: crispEdges;
+  }
+
+  .odd .image h2::before {
+    left: -14px;
+  }
+
+  .even .image h2::before {
+    right: -19px;
+  }
+
+  .odd::before, .even::before {
+    top: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    border-left: 6px solid black;
+  }
+
+  .odd::before {
+    left: -10px;
+  }
+
+  .odd .image, .even .image, .even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .even::before {
+    right: -10px;
+  }
+
+  .even .image {
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body {
+    max-width: 60vw;
+  }
+
+  hr {
+    width: calc(30% - 40px);
+  }
+
+  .even, .odd {
+    display: flex;
+    width: 100%;
+  }
+
+  .even {
+    justify-content: flex-end;
+  }
+
+  .odd {
+    justify-content: flex-start;
+  }
+
+  .even .image:before, .odd .content:before {
+    background: white;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -15px;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 6px solid black;
+    shape-rendering: crispEdges;
+  }
+
+  .even .image, .odd .content {
+    border-left: 6px solid #000;
+    padding-left: 5%;
+  }
+
+  .even .content, .odd .image {
+    padding-right: 5%;
+  }
+
+  .content, .image {
+    position: relative;
+    padding: 40px 0;
+  }
+
+  .content {
+    width: 60%;
+    max-width: 400px;
+  }
+
+  .image {
+    width: 30%;
+  }
+
+  .odd .image {
+    text-align: right;
+  }
 }
