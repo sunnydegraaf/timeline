@@ -5,72 +5,55 @@ import { useEffect } from 'react';
 
 export default function ImageContainer(props) {
 
-  const { ref, inView } = useInView()
+  const { ref, inView } = useInView({
+    threshold: 0.2
+  })
 
-  const animation = useAnimation();
+  const textAnimation = useAnimation();
+  const imageAnimation = useAnimation();
 
   useEffect(() => {
-    console.log("Use effect hook, inView =", inView);
     if(inView) {
-      animation.start({
-        x: 0,
+      textAnimation.start({
+        y: 0,
+      })
+
+      imageAnimation.start({
+        y: 0,
+        opacity: 1,
         transition: {
-          delay: 0.1,
-          type: 'spring',
-          duration: 1,
-          bounce: 0.3
+          duration: .4,
+          delay: .1
         }
       })
     }
     if(!inView) {
-      animation.start({
-        x: -100
+      textAnimation.start({
+        y: 60
+      })
+
+      imageAnimation.start({
+        opacity: 0,
+        y: 100
       })
     }
   }, [inView])
 
   let year = props.year;
 
-  const sentence = {
-    hidden: {
-      opacity: 0,
-      y: 50
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        staggerChildren: 0.1,
-        type: "spring",
-        bounce: 0.5
-      }
-    }
-  }
-
-  const letter = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-    }
-  }
-
   return (
     <div className='image' ref={ref}>
-      <motion.h2
-        animate={animation}
-      >
+      <motion.h2>
         {props.year &&
           year.split("").map((char, index) => {
             return (
-              <motion.span key={char + "-" + index} variants={letter}>
+              <motion.span transition={{delay: 0.1 * index}} animate={textAnimation}>
                 {char}
               </motion.span>
             )
           })}
       </motion.h2>
-      {props.img && <img src={require(`../img/${props.img.src}`)} alt={props.img.alt} />}
+      {props.img && <motion.img animate={imageAnimation} src={require(`../img/${props.img.src}`)} alt={props.img.alt} />}
     </div>
   )
 }

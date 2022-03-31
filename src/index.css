@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Source+Serif+Pro:wght@300;400;700&display=swap');
+
+html {
+  border-top: 2px solid #f300ec;
+}
 
 body {
   font-family: "Source Serif Pro", serif;
-  margin: 30px auto;
-  color: #343a40;
+  color: #000000;
+  margin: 90px auto;
+}
+
+svg {
+  fill: #000000;
+}
+
+span {
+  display: inline-block;
 }
 
 hr {
@@ -11,7 +23,7 @@ hr {
   position: relative;
   margin: 12px auto;
   width: calc(100% - 20px);
-  border: 3px solid #343a40;
+  border: 3px solid #000000;
 }
 hr.reverse {
   transform: scaleX(-1);
@@ -48,6 +60,13 @@ img {
 .even img {
   margin-top: 60px;
   object-position: left;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
 }
 
 h2, p {
@@ -89,7 +108,7 @@ h2 {
     content: "";
     width: 8px;
     height: 8px;
-    border: 6px solid #343a40;
+    border: 6px solid #000000;
     shape-rendering: crispEdges;
   }
 
@@ -107,7 +126,7 @@ h2 {
     content: "";
     display: block;
     height: 100%;
-    border-left: 6px solid #343a40;
+    border-left: 6px solid #000000;
   }
 
   .odd::before {
@@ -127,6 +146,7 @@ h2 {
     text-align: right;
   }
 }
+
 @media only screen and (min-width: 900px) {
   body {
     max-width: 60vw;
@@ -137,6 +157,7 @@ h2 {
   }
 
   .even, .odd {
+    position: relative;
     display: flex;
     width: 100%;
   }
@@ -158,12 +179,12 @@ h2 {
     content: "";
     width: 12px;
     height: 12px;
-    border: 6px solid #343a40;
+    border: 6px solid #000000;
     shape-rendering: crispEdges;
   }
 
   .even .image, .odd .content {
-    border-left: 6px solid #343a40;
+    border-left: 6px solid #000000;
     padding-left: 10%;
   }
 
@@ -194,11 +215,90 @@ h2 {
   }
 
   .image h2 {
-    font-weight: 300;
+    overflow: hidden;
+    font-weight: 400;
     font-size: 60px;
   }
 
   .odd .image {
     text-align: right;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: calc(90px - 1em);
+}
+
+.share {
+  padding-inline-start: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.share a {
+  color: #f300ec;
+}
+
+.share li {
+  position: relative;
+}
+
+.share li:first-child {
+  margin-right: 30px;
+}
+
+.share li:first-child::after {
+  right: -45px;
+  bottom: 0;
+  top: calc(50% - 1px);
+  position: absolute;
+  display: block;
+  width: 30px;
+  background: black;
+  height: 1px;
+  content: '';
+}
+
+.logo {
+  max-width: 200px;
+}
+
+#go-to {
+  margin-left: 20px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #F57863;
+  text-transform: uppercase;
+}
+
+#go-to::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+  background-image: url("arrow.svg");
+  left: -20px;
+  top: 4px;
+}
+
+.cube {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 900px ) and (max-width: 1270px) {
+  hr {
+    width: calc(25% - 30px);
   }
 }
