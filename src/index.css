@@ -203,7 +203,7 @@ h2 {
   }
 
   .content h2 {
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .content p {
@@ -215,8 +215,9 @@ h2 {
   }
 
   .image h2 {
+    color: #e83e8c;
     overflow: hidden;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 60px;
   }
 

@@ -9,8 +9,8 @@ export default function Container() {
 
     let cubes = [
         {
-          width: 4,
-          height: 4,
+          width: 6,
+          height: 6,
           color: '#e83e8c'
         },
         {
@@ -19,13 +19,13 @@ export default function Container() {
           color: '#fd7e14'
         },
         {
-          width: 4,
-          height: 4,
+          width: 6,
+          height: 6,
           color: '#007bff'
         },
         {
-          width: 8,
-          height: 8,
+          width: 6,
+          height: 6,
           color: 'e83e8c'
         },
         {
@@ -34,8 +34,8 @@ export default function Container() {
           color: 'fd7e14'
         },
         {
-          width: 4,
-          height: 4,
+          width: 6,
+          height: 6,
           color: '#007bff'
         }
       ]

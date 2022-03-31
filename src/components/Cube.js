@@ -11,8 +11,8 @@ export default function Cube({ cube, index }) {
 
     return (
         <>
-            <motion.span initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1.5, transition: {duration: .2}}} className='cube' style={{ background: color, width: width, height: height, left: `${left}%`, top: `${top}%` }}></motion.span>
-            <motion.span initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 2.5,  transition: {duration: .2}}} className='cube' style={{ background: color, width: width, height: height, right: `${right}%`, top: `${top}%` }}></motion.span>
+            <motion.span initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1.5, transition: {duration: .2}}} viewport={{ once: true }} className='cube' style={{ background: color, width: width, height: height, left: `${left}%`, top: `${top}%` }}></motion.span>
+            <motion.span initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1.5,  transition: {duration: .2}}} viewport={{ once: true }} className='cube' style={{ background: color, width: width, height: height, right: `${right}%`, top: `${top}%` }}></motion.span>
         </>
 
     )
