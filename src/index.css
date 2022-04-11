@@ -7,43 +7,11 @@ html {
 body {
   font-family: "Source Serif Pro", serif;
   color: #000000;
-  margin: 90px auto;
-}
-
-svg {
-  fill: #000000;
+  margin: 0;
 }
 
 span {
   display: inline-block;
-}
-
-hr {
-  overflow: visible;
-  position: relative;
-  margin: 12px auto;
-  width: calc(100% - 20px);
-  border: 3px solid #000000;
-}
-hr.reverse {
-  transform: scaleX(-1);
-}
-hr::before, hr::after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 12px;
-  height: 12px;
-  background-size: 12px 12px;
-  background-image: url("pixel.svg");
-}
-hr::before {
-  top: -15px;
-  left: -15px;
-}
-hr::after {
-  bottom: -15px;
-  right: -15px;
 }
 
 img {
@@ -78,6 +46,10 @@ p {
   font-size: 18px;
   line-height: 160%;
   color: #333333;
+}
+
+.future p {
+  color: #fff;
 }
 
 h2 {
@@ -148,18 +120,25 @@ h2 {
 }
 
 @media only screen and (min-width: 900px) {
-  body {
+
+  section > div {
     max-width: 60vw;
+    margin: 0 auto
   }
 
-  hr {
-    width: calc(20% - 40px);
+  section.future {
+    background: black;
   }
 
   .even, .odd {
     position: relative;
     display: flex;
     width: 100%;
+  }
+
+  section.future .odd, section.future .even {
+    color: white;
+    background: #000000;
   }
 
   .even {
@@ -183,9 +162,19 @@ h2 {
     shape-rendering: crispEdges;
   }
 
-  .even .image, .odd .content {
+  section.future .even .image:before, section.future .odd .content:before {
+    background: black;
+    border: 6px solid #fff;
+  }
+
+  
+  section .even .image, section .odd .content {
     border-left: 6px solid #000000;
     padding-left: 10%;
+  }
+
+  section.future .even .image, section.future .odd .content {
+    border-left: 6px solid #fff;
   }
 
   .even .content, .odd .image {
@@ -230,7 +219,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: calc(90px - 1em);
+  margin: calc(90px - 1em);
 }
 
 .share {
@@ -298,8 +287,50 @@ h2 {
   height: 20px;
 }
 
-@media only screen and (min-width: 900px ) and (max-width: 1270px) {
-  hr {
-    width: calc(25% - 30px);
-  }
+.seperator {
+  display: flex;
+  position: relative;
+  width: calc(10% + 6px);
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.seperator.reverse {
+  transform: scaleX(-1);
+}
+
+.seperator svg {
+  fill: #000000;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+
+.future .seperator svg {
+  fill: white;
+}
+
+.seperator svg:first-child {
+  top: 0;
+  left: -12px;
+}
+
+.seperator svg:last-child {
+  bottom: 0;
+  right: -12px;
+}
+
+.seperator hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin: 0;
+  border: 3px solid black;
+}
+
+.future .seperator hr {
+  border: 3px solid white;
+}
+
+section.future:last-child div.seperator {
+  display: none;
 }
