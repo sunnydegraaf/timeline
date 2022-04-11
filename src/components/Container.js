@@ -9,34 +9,22 @@ export default function Container() {
 
     let cubes = [
         {
-          width: 6,
-          height: 6,
-          color: '#e83e8c'
+          width: 9,
+          height: 9,
+          color: '#e83e8c',
+          scrollFactor: -2000
+        },
+        {
+          width: 3,
+          height: 3,
+          color: '#fd7e14',
+          scrollFactor: -1100
         },
         {
           width: 6,
           height: 6,
-          color: '#fd7e14'
-        },
-        {
-          width: 6,
-          height: 6,
-          color: '#007bff'
-        },
-        {
-          width: 6,
-          height: 6,
-          color: 'e83e8c'
-        },
-        {
-          width: 6,
-          height: 6,
-          color: 'fd7e14'
-        },
-        {
-          width: 6,
-          height: 6,
-          color: '#007bff'
+          color: '#007bff',
+          scrollFactor: -1500
         }
       ]
 

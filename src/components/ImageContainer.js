@@ -1,7 +1,5 @@
 import React from 'react'
-import { motion, useAnimation } from "framer-motion"
-import { useInView } from 'react-intersection-observer';
-import { useEffect } from 'react';
+import { motion } from "framer-motion"
 
 export default function ImageContainer(props) {
   let year = props.year;
