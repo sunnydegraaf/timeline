@@ -169,9 +169,9 @@
     },
     {
         "future": true,
-        "year": "2030",
-        "title": "Leader in digital real estate",
-        "body": "Brink is de grootste speler in het digitale vastgoed. De metaverse is van ons!",
+        "year": "2025",
+        "title": "In de stad van brink is altijd wat te zien",
+        "body": "Al 50 jaar bouwen we aan de steden waar we zo van houden. Dat doen we samen. Het liefst aan zo complex mogelijke opgaven. Daar krijgen we energie van. We hebben het geluk om als Brink kantoor te houden in drie steden: Rotterdam, Eindhoven en Groningen. Elke stad is, op zijn eigen manier, volop in ontwikkeling. De gebouwde omgeving verandert met de dag. Juist wanneer we op kantoor werken, voelt het alsof we daar middenin zitten. Het kloppend hart van Brink.",
         "img": false
     },
     {
@@ -179,6 +179,26 @@
         "year": "2030",
         "title": "Leader in digital real estate",
         "body": "Brink is de grootste speler in het digitale vastgoed. De metaverse is van ons!",
+        "img": {
+            "src": "13.png",
+            "alt": "Brinks eigen stukje digital real estate in de meta verse!"
+        }
+    },
+    {
+        "future": true,
+        "year": "2025",
+        "title": "In de stad van brink is altijd wat te zien",
+        "body": "Al 50 jaar bouwen we aan de steden waar we zo van houden. Dat doen we samen. Het liefst aan zo complex mogelijke opgaven. Daar krijgen we energie van. We hebben het geluk om als Brink kantoor te houden in drie steden: Rotterdam, Eindhoven en Groningen. Elke stad is, op zijn eigen manier, volop in ontwikkeling. De gebouwde omgeving verandert met de dag. Juist wanneer we op kantoor werken, voelt het alsof we daar middenin zitten. Het kloppend hart van Brink.",
         "img": false
+    },
+    {
+        "future": true,
+        "year": "2030",
+        "title": "Leader in digital real estate",
+        "body": "Brink is de grootste speler in het digitale vastgoed. De metaverse is van ons!",
+        "img": {
+            "src": "13.png",
+            "alt": "Brinks eigen stukje digital real estate in de meta verse!"
+        }
     }
 ]
