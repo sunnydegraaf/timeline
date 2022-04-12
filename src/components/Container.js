@@ -12,19 +12,19 @@ export default function Container() {
             width: 9,
             height: 9,
             color: '#e83e8c',
-            scrollFactor: -2000
+            scrollFactor: -2200
         },
         {
             width: 3,
             height: 3,
             color: '#fd7e14',
-            scrollFactor: -1100
+            scrollFactor: -1300
         },
         {
             width: 6,
             height: 6,
             color: '#007bff',
-            scrollFactor: -1500
+            scrollFactor: -1700
         }
     ]
 
