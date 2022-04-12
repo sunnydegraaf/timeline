@@ -240,6 +240,7 @@ section.future:last-child div.seperator {
   }
 
   section {
+    overflow-x: hidden;
     padding: 0 30px;
   }
 
