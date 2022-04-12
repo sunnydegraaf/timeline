@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { motion } from "framer-motion"
+import useMousePositionRelative from '../lib/useMousePositionRelative';
 
 export default function ImageContainer(props) {
+
+  const [animate, setAnimate] = useState(false);
+  const [hovered, setHovered] = useState(false);
   let year = props.year;
+  const ref = useRef();
+  const coords = useMousePositionRelative(ref);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setAnimate(true);
+    }, 500);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
 
   return (
     <div className='image'>
@@ -17,7 +33,17 @@ export default function ImageContainer(props) {
           })}
       </motion.h2>
       {props.img && 
-        <motion.img initial={{y: 100, opacity: 0}} whileInView={{ y: 0, opacity: 1, transition: { duration: .4, delay: .1}}} viewport={{ once: true }} src={require(`../img/${props.img.src}`)} alt={props.img.alt} />
+        <motion.img 
+          ref={ref} 
+          onMouseOver={() => setHovered(true)} 
+          onMouseLeave={() => setHovered(false)} 
+          initial={{y: 100, opacity: 0}} 
+          whileInView={{ opacity: 1, transition: { duration: .4, delay: .1}}} 
+          animate={{ x: coords.x / 100, y: coords.y / 100}}
+          exit={{ x: 0, opacity: 0 }}
+          viewport={{ once: true }} src={require(`../img/${props.img.src}`)} 
+          alt={props.img.alt} 
+        />
       }
     </div>
   )
