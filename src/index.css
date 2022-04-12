@@ -79,172 +79,19 @@ p {
   color: #fff;
 }
 
+section.future {
+  background: black;
+}
+
+section.future .odd, section.future .even {
+  color: white;
+  background: #000000;
+}
+
 h2 {
   text-transform: capitalize;
   font-size: 30px;
   font-weight: inherit;
-}
-
-@media only screen and (max-width: 899px) {
-  body {
-    max-width: 85vw;
-  }
-
-  .odd, .even {
-    position: relative;
-    padding: 20px;
-  }
-
-  .image img {
-    margin-bottom: 20px;
-  }
-
-  .image h2::before {
-    background: white;
-    transform: rotate(45deg) translateY(4px);
-    position: absolute;
-    display: block;
-    content: "";
-    width: 8px;
-    height: 8px;
-    border: 6px solid #000000;
-    shape-rendering: crispEdges;
-  }
-
-  .odd .image h2::before {
-    left: -14px;
-  }
-
-  .even .image h2::before {
-    right: -19px;
-  }
-
-  .odd::before, .even::before {
-    top: 0;
-    position: absolute;
-    content: "";
-    display: block;
-    height: 100%;
-    border-left: 6px solid #000000;
-  }
-
-  .odd::before {
-    left: -10px;
-  }
-
-  .odd .image, .even .image, .even {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .even::before {
-    right: -10px;
-  }
-
-  .even .image {
-    text-align: right;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-
-  .header {
-    margin: calc(90px - 1em) auto;
-    max-width: 1000px;
-  }
-
-  section > div, section > .seperator {
-    max-width: 1000px;
-    margin: 0 auto
-  }
-
-  section.future {
-    background: black;
-  }
-
-  .even, .odd {
-    position: relative;
-    display: flex;
-    width: 100%;
-  }
-
-  section.future .odd, section.future .even {
-    color: white;
-    background: #000000;
-  }
-
-  .even {
-    justify-content: flex-end;
-  }
-
-  .odd {
-    justify-content: flex-start;
-  }
-
-  .even .image:before, .odd .content:before {
-    background: white;
-    transform: rotate(45deg) translate(15px, 15px);
-    position: absolute;
-    left: -15px;
-    display: block;
-    content: "";
-    width: 12px;
-    height: 12px;
-    border: 6px solid #000000;
-    shape-rendering: crispEdges;
-  }
-
-  section.future .even .image:before, section.future .odd .content:before {
-    background: black;
-    border: 6px solid #fff;
-  }
-
-  
-  section .even .image, section .odd .content {
-    border-left: 6px solid #000000;
-    padding-left: 10%;
-  }
-
-  section.future .even .image, section.future .odd .content {
-    border-left: 6px solid #fff;
-  }
-
-  .even .content, .odd .image {
-    padding-right: 10%;
-  }
-
-  .content, .image {
-    position: relative;
-    padding: 60px 0;
-  }
-
-  .content {
-    width: 60%;
-    max-width: 400px;
-  }
-
-  .content h2 {
-    font-weight: 400;
-  }
-
-  .content p {
-    margin-top: 30px;
-  }
-
-  .image {
-    width: 30%;
-  }
-
-  .image h2 {
-    color: #e83e8c;
-    overflow: hidden;
-    font-weight: 600;
-    font-size: 60px;
-  }
-
-  .odd .image {
-    text-align: right;
-  }
 }
 
 .header {
@@ -254,6 +101,7 @@ h2 {
 }
 
 .share {
+  flex-wrap: wrap;
   padding-inline-start: 0;
   list-style: none;
   display: flex;
@@ -330,6 +178,13 @@ h2 {
   transform: scaleX(-1);
 }
 
+.image h2 {
+  color: #e83e8c;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 60px;
+}
+
 .seperator svg {
   fill: #000000;
   position: absolute;
@@ -364,4 +219,186 @@ h2 {
 
 section.future:last-child div.seperator {
   display: none;
+}
+
+@media only screen and (max-width: 899px) {
+
+  .logo {
+    max-width: 150px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .image h2 {
+    font-size: 50px;
+  }
+
+  section {
+    padding: 0 30px;
+  }
+
+  .header {
+    margin-top: 70px;
+    padding: 30px;
+  }
+
+  .seperator span {
+    width: calc(100% - 22px);
+  }
+
+  .odd, .even {
+    position: relative;
+    padding: 20px;
+  }
+
+  .image img {
+    margin-bottom: 20px;
+  }
+
+  .image h2::before {
+    background: white;
+    transform: rotate(45deg) translateY(4px);
+    position: absolute;
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 6px solid #000000;
+    shape-rendering: crispEdges;
+  }
+
+  .future .image h2::before {
+    border: 6px solid #fff;
+    background: black;
+  }
+
+  .odd .image h2::before {
+    transform: rotate(45deg) translateY(24px);
+    left: 0;
+  }
+
+  .even .image h2::before {
+    transform: rotate(45deg) translateY(24px);
+    right: -34px;
+  }
+
+  .odd::before, .even::before {
+    top: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    border-left: 6px solid #000000;
+  }
+
+  .odd::before {
+    left: -10px;
+  }
+
+  .future .odd::before, .future .even::before {
+    border-left: 6px solid #fff;
+  }
+
+  .odd .image, .even .image, .even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .even::before {
+    right: -10px;
+  }
+
+  .even .image {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
+  .header {
+    margin: calc(90px - 1em) auto;
+    max-width: 1000px;
+  }
+
+  section > div, section > .seperator {
+    max-width: 1000px;
+    margin: 0 auto
+  }
+
+  .even, .odd {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .even {
+    justify-content: flex-end;
+  }
+
+  .odd {
+    justify-content: flex-start;
+  }
+
+  .even .image:before, .odd .content:before {
+    background: white;
+    transform: rotate(45deg) translate(15px, 15px);
+    position: absolute;
+    left: -15px;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 6px solid #000000;
+    shape-rendering: crispEdges;
+  }
+  
+  section .even .image, section .odd .content {
+    border-left: 6px solid #000000;
+    padding-left: 10%;
+  }
+
+  .even .content, .odd .image {
+    padding-right: 10%;
+  }
+
+  .content, .image {
+    position: relative;
+    padding: 60px 0;
+  }
+
+  section.future .even .image:before, section.future .odd .content:before {
+    background: black;
+    border: 6px solid #fff;
+  }
+  
+  section.future .even .image, section.future .odd .content {
+    border-left: 6px solid #fff;
+  }
+
+  .content {
+    width: 60%;
+    max-width: 400px;
+  }
+
+  .content h2 {
+    font-weight: 400;
+  }
+
+  .content p {
+    margin-top: 30px;
+  }
+
+  .image {
+    width: 30%;
+  }
+
+  .odd .image {
+    text-align: right;
+  }
 }
