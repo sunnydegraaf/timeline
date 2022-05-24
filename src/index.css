@@ -19,7 +19,13 @@ a {
   cursor: pointer;
 }
 
-.share a:after {
+.content a {
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+}
+
+.share a:after, .content a:after {
   height: 1px;
   width: 0;
   background-color: currentColor;
@@ -35,7 +41,7 @@ a {
   content: "";
 }
 
-.share a:hover:after {
+.share a:hover:after, .content a:hover:after {
   left: 0;
   right: auto;
   width: 100%;
@@ -109,7 +115,7 @@ h2 {
   justify-content: center;
 }
 
-.share a {
+.share a, .content a {
   color: #f300ec;
 }
 
@@ -219,6 +225,32 @@ h2 {
 
 section.future:last-child div.seperator {
   display: none;
+}
+
+.read-more > span {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f300ec;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.read-more > span i {
+  position: relative;
+  height: 14px;
+  width: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.read-more > span i svg {
+  transform-origin: center;
+  position: absolute;
+  fill: #f300ec;
 }
 
 @media only screen and (max-width: 899px) {
@@ -335,6 +367,7 @@ section.future:last-child div.seperator {
     margin-block-end: 0;
   }
 }
+
 
 @media only screen and (min-width: 900px) {
 

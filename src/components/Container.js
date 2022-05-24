@@ -39,7 +39,7 @@ export default function Container() {
                                 return <Cube cube={cube} index={index} />
                             })}
                             <ImageContainer img={container.img} year={container.year} />
-                            <Content title={container.title} body={container.body} />
+                            <Content title={container.title} body={container.body} readMore={container.readMore} link={container.link} />
                         </div>
                         <Seperator />
                     </section>
@@ -50,7 +50,7 @@ export default function Container() {
                             {cubes.map((cube, index) => {
                                 return <Cube cube={cube} index={index} />
                             })}
-                            <Content title={container.title} body={container.body} />
+                            <Content title={container.title} body={container.body} readMore={container.readMore} link={container.link} />
                             <ImageContainer img={container.img} year={container.year} />
                         </div>
                         <Seperator reverse={'reverse'} />

@@ -2,203 +2,275 @@
     {
         "year": "1972",
         "title": "Deddo Brink richt ingenieursbureau Brink op",
-        "body": "Deddo Brink zag als architect dat de bouw effectiever en efficiënter kon. Software om te calculeren bestond niet en werd zelf geschreven. Alle software werd geschreven rond een zelfgebouwde tekstverwerker: IBIS Tekst. Met de software rekende Brink voor alle partijen in de bouw: opdrachtgevers, aannemers en architecten. Door integratie en standaardisatie – vaak door middel van automatisering – kregen de betrokken partijen meer grip op het proces en de kwaliteit van het gebouw dat zij ontwikkelden.",
+        "body": [ "Deddo Brink zag als architect dat de bouw effectiever en efficiënter kon. Hij richt Ingenieursbureau Brink op voor kostenadvies en automatisering. Hij wil verandering brengen in de sector. Software om te calculeren bestaat nog niet, die gaat hij zelf schrijven. Met de jaren breiden de werkzaamheden uit met projectmanagement."],
+        "link": { 
+            "text": "Lees meer over Deddo Brink hier", 
+            "href": "https://www.brink.nl/deddo-brink-1938-2019/" 
+        },
         "img": {
             "src": "1.png",
             "alt": "Het oude Brink logo"
         }
     },
     {
-        "year": "1972",
-        "title": "de club van Rome 'Grenzen aan de groei': circulair denken en doen",
-        "body": "Het was de wake-up call voor de wereld. Het rapport Grenzen aan de Groei van de Club van Rome in 1972. Vanaf dat moment kon niemand meer zijn ogen sluiten voor de eindigheid van fossiele brandstoffen, de vervuiling en de impact op het klimaat. Voor de gebouwde omgeving betekent dit dat we die duurzamer moeten inrichten. Misschien wel extra relevant voor de bouwsector. Want als grootste grondstofgebruiker, wordt circulariteit – en daarmee circulair bouwen – voor steeds meer organisaties noodzaak. En - 50 jaar later- een steeds breder gedragen gedachtengoed. Duurzaamheid - Brink",
-        "img": {
-            "src": "2.png",
-            "alt": "De Club van Rome"
-        }
-    },
-    {
         "year": "1978",
-        "title": "Mijlpaalproject: Paleis ‘t Loo",
-        "body": "In 1978 besluit de Rijksgebouwendienst tot de grootste bouwkundige restauratie ooit in Nederland uitgevoerd: die van Paleis het Loo. De renovatie omvatte het gehele gebouwencomplex, het interieur en de bijbehorende tuinen. Het paleis werd in oude luister hersteld. Een project van enorme omvang, waar naast architect en bouwkundigen, ook kunsthistorici, museumdirectie, monumentenzorg én zo’n 35 aannemers bij betrokken waren. Brink werd als bouwadviseur aangetrokken om deze complexe, reconstruerende restauratie in goede banen te leiden. En te zorgen dat het paleis binnen de gestelde termijnen én budgetten opgeleverd kon worden.",
+        "title": "Spraakmakend: Paleis ‘t Loo",
+        "body": [ "Paleis het Loo wordt gerenoveerd en in oude luister hersteld. Een omvangrijk project met diverse stakeholders en uiteenlopende belangen. Een mooie uitdaging om als bouwadviseur deze restauratie in goede banen te leiden. En te zorgen dat het paleis binnen de gestelde termijnen én budgetten opgeleverd wordt." ],
         "img": {
             "src": "3.png",
-            "alt": "Krantenknipsel van het mijlpaalproject: Pakes 't Loo"
+            "alt": "Krantenknipsel van het mijlpaalproject: Palijs 't Loo"
         }
     },
     {
         "year": "1982",
         "title": "Overname Ingenieursbureau Tricht in Tiel",
-        "body": "Tien jaar na de oprichting nam Brink het Tielse ingenieursbureau Tricht over. Eigenaar Frans Diekstra bracht een flinke dosis commercieel denken mee. Zo bedacht hij dat er een echte verkoper op de software moest worden aangesteld. En hij bedacht dat er ruimte in de markt was voor projectontwikkeling. Tekenbureau Tricht en Brink was geboren. Commerciële successen werden behaald met een speciaal ontwikkeld rekenmodel voor investeringskosten. Door de vierkante meters in te voeren, kreeg je de prijs van een gebouw. Door parameters te veranderen kon je een gebouw duurder of goedkoper maken. Als je een kengetal of vormfactor veranderde, moest je ook de technische omschrijving aanpassen. Als je vervolgens bouwde wat in de technische omschrijving stond, kon je geen prijsoverschrijdingen meer hebben.",
+        "body": [ "Tien jaar na de oprichting neemt Brink het Tielse ingenieursbureau Tricht over en daarmee een flinke dosis commercieel denken. Er wordt een echte verkoper aangesteld op de software. En ze beginnen met projectontwikkeling. Tekenbureau Tricht en Brink is geboren." ],
         "img": {
             "src": "4.png",
             "alt": "Dame aan het werk achter haar personal computer"
         }
     },
     {
-        "year": null,
-        "title": "Via software naar projectmanagement",
-        "body": "Ook projectontwikkelaars waren geïnteresseerd in het rekenmodel. De eerste opdrachten als projectmanager zijn een feit",
-        "img": false
-    },
-    {
         "year": "1985",
         "title": "De naam verandert in Brink Groep",
-        "body": "Het bedrijf bestaat voortaan uit 8 BV’s",
+        "body": [ "De organisatie gaat op de schop. Verschillende afdelingen worden in BV’s ondergebracht in een holding. Een stap gericht op het groeien van de onderneming." ],
         "img": {
-            "src": "5.jpg",
+            "src": "1985 Logo Brink Groep.jpg",
             "alt": "Oud logo van de Brink Groep"
         }
     },
     {
         "year": "1987",
-        "title": "Mijlpaalproject: Gasunie Groningen",
-        "body": "Te klein en gedateerd: dat was de huisvesting van Gasunie Groningen. Een nieuwe plek was dus nodig. De ontwikkeling van die nieuwe huisvesting was echter een groot en technisch complex verhaal. Een kantoorgebouw van zo’n 45.000 m² en ondergronds de centrale commandopost. Ga er maar aan staan. Brink onderzocht huisvestingsscenario’s, stelde een programma van eisen op, was projectmanager van de nieuwbouw, coördineerde de verhuizing, overzag de inrichting en de aanleg van het terrein (a 60.000 m²). Het resultaat: een spraakmakend gebouw, “de Apenrots” in de volksmond. Dit project was cruciaal voor Brinks projectmanagement. Uit dit project vloeiden vervolgens grote opdrachten voort, zoals voor KPN en Eemshaven.",
+        "title": "Omvangrijk en complex: Gasunie Groningen",
+        "body": [ "Brink wordt betrokken bij een uitdagend huisvestingsvraagstuk: het nieuwe hoofdkantoor van Gasunie Groningen. De ontwikkeling van die nieuwe huisvesting is een groot en technisch complex verhaal. Een kantoorgebouw van zo’n 45.000 m², ontworpen met het oog op flexibiliteit en ontmoeting. En in de kelder een controlekamer. Een bunker met twee meter dikke muren bestand tegen grondzetting, wateroverlast of atoomaanvallen." ],
+        "readMore": [ "Brink onderzoekt huisvestingsscenario’s, stelt een programma van eisen op, is projectmanager van de nieuwbouw, coördineert de verhuizing, overziet de inrichting en de aanleg van het terrein (a 60.000 m²). Het resultaat: een spraakmakend gebouw, “de Apenrots” in de volksmond.", "Dit project is cruciaal voor Brinks projectmanagement. Uit dit project vloeiden vervolgens grote opdrachten voort, zoals KPN en Eemshaven."],
         "img": {
-            "src": "6.jpg",
+            "src": "1987 - Gasunie Groningen.jpg",
             "alt": "Groots gefotografeerd. Het mijlpaalproject: High Tech Campus"
         }
     },
     {
         "year": "1989",
         "title": "Kantoor Eindhoven wordt opgericht",
-        "body": "Ons kantoor in Eindhoven wordt opgericht. In het daarop volgende jaar groeien wij uit tot een organisatie met maar liefst 280 medewerkers. Met het voeren van projectmanagement voor het Frits Philips Muziekcentrum kwam ook hier de naamsbekendheid",
+        "body": [ "Ons kantoor in Eindhoven wordt opgericht. In het daarop volgende jaar groeien wij uit tot een organisatie met maar liefst 280 medewerkers." ],
         "img": false
     },
     {
         "year": "1992",
-        "title": "Reorganisatie",
-        "body": "Van 15 BV’s naar xx",
+        "title": "Crisis binnen Brink",
+        "body": [ "De softwareontwikkeling kost (te) veel geld. De BV waar dit in is ondergebracht wordt failliet verklaard. Een noodzakelijk kwaad om erger te voorkomen. Aan één van de directeuren, Gerrit Westerveld, de taak om orde op zaken te stellen. Een forse reorganisatie en herstructurering van de andere bedrijven is het gevolg." ],
         "img": false
     },
     {
         "year": "1993",
         "title": "Een nieuwe visie op kantoorhuisvesting: Het Nieuwe Werken",
-        "body": "In 1993 werd er voor het eerst een nieuwe visie op werken, faciliteren, organiseren en investeren geïntroduceerd: ‘Het Nieuwe Werken’. Een filosofie gebaseerd op het optimaliseren van bedrijfsprocessen om de kwaliteit van faciliteiten te verbeteren en kosten te verlagen. Dit zogenaamde ‘organisatiegericht faciliteren’, doorbrak traditionele gewoonten en er ontstonden ook nieuwe concepten voor kantoorhuisvesting, waarbij ICT een grote rol speelde. Vandaag staat de mens centraal. Er moet evenwicht zijn tussen de strategische doelen van de organisatie, de status en vooruitzichten van het vastgoed, en de beleving bij de mensen, klanten of bezoekers. Huisvestingsadvies - Brink",
+        "body": [ "Een nieuwe visie op de werkplek, organisatiestructuur en -cultuur: ‘Het Nieuwe Werken’. Organisaties zullen effectiever en efficiënter zijn doordat medewerkers meer vrijheid krijgen om te bepalen hoe en waar ze werken. Brink werkt steeds vaker aan uitdagende huisvestingsvraagstukken."],
+        "readMore": [ "Zoals bijvoorbeeld het gemeentekantoor in Den Bosch, de inrichting van diverse vestigingen van Deloitte of de herhuisvestingsopgaves van de Regiopolitie Limburg Noord." ],
         "img": {
             "src": "7.jpg",
             "alt": "Tekening van plattegrond"
         }
     },
     {
-        "year": "1998",
-        "title": "Mijlpaalproject: High Tech Campus",
-        "body": "Wat begon als huisvesting voor de R&D-activiteiten van Philips groeide uit tot een unieke campus van meer dan 250 bedrijven die werken aan de technologieën van morgen. Eind jaren 90 zocht Philips naar een plek om al zijn R&D-activiteiten te huisvesten, tot dan toe verspreid over de stad. Het was het begin van de High Tech Campus. Brink was vanaf het eerste uur betrokken bij de ontwikkeling van deze nieuwe huisvesting en de adaptieve ontwikkeling in de jaren erna. Zo opende Philips in 2003 opende de deur voor andere innovatieve, technologische bedrijven. De High Tech Campus, een business campus, in ontwikkeling. In een hechte samenwerking met Philips zijn zo in de loop der jaren 350.000 m2 vastgoed, 100 hectare landschap, mobiliteitsoplossingen én een projectorganisatie gerealiseerd. O ja, en zelfs een eigen afslag van de snelweg. Zo is, met consistentie en flexibiliteit, een vruchtbaar ecosysteem ontwikkeld die open innovatie een plek biedt. De High Tech Campus heeft onze liefde voor campussen en campusontwikkeling aangewakkerd. Brightlands, TU Delft, ASML (?), BUas, transportcampus Breda",
+        "year": "1997",
+        "title": "Hans de Jonge volgt Deddo Brink op",
+        "body": [ "Hans de Jonge wordt de nieuwe directievoorzitter van Brink Groep. Onder zijn leiding vindt een stevige verandering en vereenvoudiging van de bedrijfsstructuur plaats." ],
+        "readMore": [ "Besloten wordt tot een ontmanteling van de BV structuur. De Brink Groep bestaat vanaf nu uit Brink Management & Advies en Brink Automatisering.", "Brink Management & Advies wordt ingericht rond een vakinhoudelijke lijn door de oprichting van Business units: deze zijn resultaatsverantwoordelijk én verantwoordelijk voor vakinhoudelijke verdieping. De eerste business units zijn Vastgoed Management & Advies en Kosten-kwaliteit Advies. Daarna worden Gebiedsontwikkeling, Huisvestingsadvisering, Bouw Management & Advies en Onderhoudsadvisering toegevoegd." ],
         "img": {
-            "src": "8.jpg",
+            "src": "1997 Hans de Jonge.jpg",
             "alt": "Lucht shot van het mijlpaalproject: High Tech Campus"
         }
     },
     {
-        "year": "2005",
-        "title": "Product: IBIS TRAD",
-        "body": null,
-        "img": false
-    },
-    {
-        "year": "2007",
-        "title": "Kredietcrisis",
-        "body": "Door het wegvallen van financieringen en een weinig innovatieve vastgoedsector sloeg in 2008 de kredietcrisis toe. Dit vroeg om fundamentele veranderingen in de vastgoedsector. Van aanbodgedreven naar vraaggericht. Van een publiek-private procesaanpak naar samenwerking op basis van kwalitatieve meerwaarde. Vandaag komt daar nog de roep om een integrale visie en regie op de inrichting en ontwikkeling van ons land bij. De fysieke leefomgeving staat onder druk. We moeten werken aan een duurzaam, economisch sterk en leefbaar Nederland voor de lange termijn. Vastgoed- en gebiedsontwikkelingen vormen een cruciale schakel in het realiseren van maatschappelijke waarden. Sturen op maatschappelijke waarde - Brink",
+        "year": "1997",
+        "title": "Brink begint met gebiedsontwikkeling",
+        "body": [ "Nederland groeit. De Vierde Nota over de Ruimtelijke Ordening Extra (VINEX) wordt gepubliceerd door het ministerie van VROM. Voor Brink betekent dat de eerste stap in gebiedsontwikkeling met als eerste uitdaging de VINEX locatie Ypenburg in Den Haag." ],
+        "readMore": [ "In de nota wordt bepaald dat tussen 1995 en 2005 nieuwe woonwijken moeten komen om de bevolkingsgroei te accommoderen. Locaties aan de rand van bestaande stadscentra worden aangewezen voor massale nieuwbouw. Zo ook Ypenburg in Den Haag.", "Brink mag de aanbesteding van alle deelplannen in deze wijk coördineren. Er moeten in tien jaar tijd 14.000 woningen komen. Nogal een opgave, dus!", "Na Ypenburg volgen meer VINEX locaties waar Brink aan meewerkt: onder andere Nootdorp, Leidschenveen en Berkel-Rodenrijs." ],
         "img": {
-            "src": "9.png",
-            "alt": "Infographic over de kredietcrisis van 2007"
+            "src": "1997 Gebiedsontwikkeling.jpg",
+            "alt": "Lucht shot van het mijlpaalproject: High Tech Campus"
         }
     },
     {
-        "year": "2008",
-        "title": "Mijlpaalproject: Rijksmuseum",
-        "body": "In 2003 sloot het Rijksmuseum zijn deuren voor een grootscheepse verbouwing. Van complexe nieuwbouw, tot reconstruerende renovatie en de installatie van een hypermoderne energievoorziening. Nogal een opgave dus: van architectuur, renovatie en restauratie tot constructie en installaties. Brink was vier jaar lang betrokken bij dit schitterende project. Onder meer als directievoerder en kostenadviseur. De omvang van het project en de uiteenlopende werkzaamheden maakten het een uitdaging om verliefd op te worden. Het belangrijkste museum van Nederland klaar voor de toekomst.",
+        "year": "1998",
+        "title": "Brink wordt van de Brinkers",
+        "body": [ "Vanaf 1997 wordt Stichting SAP, personeelsaandelen, opgericht. Dit stelt medewerkers in de gelegenheid om gecertificeerde aandelen te kopen." ]
+    },
+    {
+        "year": "1998",
+        "title": "De eerste campusontwikkeling in Nederland: High Tech Campus",
+        "body": [ "Wat begon als een huisvestingsopgave voor de R&D-activiteiten van Philips, groeit uit tot een unieke campus van meer dan 250 bedrijven die werken aan de technologieën van morgen. De eerste campusontwikkeling in Nederland. Brink is betrokken vanaf het eerste uur." ],
+        "readMore": [ "Eind jaren 90 zoekt Philips naar een plek om al zijn R&D-activiteiten te huisvesten, tot dan toe verspreid over de stad. Brink mag zich als overall projectmanager buigen over deze nieuwe huisvesting én de adaptieve ontwikkeling in de jaren erna. In 2003 opent Philips de deur voor andere innovatieve, technologische bedrijven. De High Tech Campus, een business campus, in ontwikkeling. In een hechte samenwerking met Philips zijn zo in de loop der jaren 350.000 m2 vastgoed, 100 hectare landschap, mobiliteitsoplossingen én een projectorganisatie gerealiseerd. O ja, en zelfs een eigen afslag van de snelweg. Zo is, met consistentie en flexibiliteit, een vruchtbaar ecosysteem ontwikkeld die open innovatie een plek biedt.", "De High Tech Campus heeft onze liefde voor campussen en campusontwikkeling aangewakkerd. Hierna hebben we aan diverse campusopgaves mogen werken, zoals Brightlands en Brainport." ],
         "img": {
-            "src": "10.jpg",
+            "src": "1998 High Tech Campus.jpg",
             "alt": "Een zonnige foto van het mijlpaalproject: Rijksmuseum"
         }
     },
     {
-        "year": "2009",
-        "title": "Mijlpaalproject: ICC",
-        "body": "Het grootste winkelcentrum van Nederland: volledig overdekt met een oppervlakte van 215.000 m2. Deels nieuwbouw, deels renovatie. Een project waar kwaliteit op de eerste plaats stond, met een afwerkingsniveau dat we nog niet eerder in een Nederlands winkelcentrum hebben gezien. Brink werd vanaf de vroege planfase uitgenodigd om mee te bouwen. Een uniek project, hoog in complexiteit met een uitzonderlijke uitstraling. Echt iets voor Brink, dus. We verzorgden het ontwerpmanagement, zorgden voor real-scale mock-ups voor grip op het ontwerp, gaven kostenadvies en coördineerden de aanbestedingen. Een bijzondere samenwerking met een opdrachtgever die het creëren van meerwaarde constant voorop stelde. Samen kijken hoe het nog mooier, bijzonderder en functioneler kan. Met een nog betere verhouding van opbrengsten en kosten. Zodat het plaatje klopt, op alle vlakken.",
+        "year": "2004",
+        "title": "Overname KPD",
+        "body": [ "Brink koopt KPD. Een gouden greep, want hiermee kreeg Brink in één keer een grote voet aan de grond in de GWW. In 2013 fuseerde het met Brink Automatisering en gingen de twee verder onder de naam IBIS BV." ],
         "img": {
-            "src": "11.jpg",
+            "src": "2004 KPD.png",
             "alt": "Op een zonnige dag met heldere lucht gefotografeerd, het mijlpaalproject: ICC"
         }
     },
     {
-        "year": "2014",
-        "title": "Mijlpaalproject: Mall of the Netherlands",
-        "body": "Het grootste winkelcentrum van Nederland: volledig overdekt met een oppervlakte van 215.000 m2. Deels nieuwbouw, deels renovatie. Een project waar kwaliteit op de eerste plaats stond, met een afwerkingsniveau dat we nog niet eerder in een Nederlands winkelcentrum hebben gezien. Brink werd vanaf de vroege planfase uitgenodigd om mee te bouwen. Een uniek project, hoog in complexiteit met een uitzonderlijke uitstraling. Echt iets voor Brink, dus. We verzorgden het ontwerpmanagement, zorgden voor real-scale mock-ups voor grip op het ontwerp, gaven kostenadvies en coördineerden de aanbestedingen. Een bijzondere samenwerking met een opdrachtgever die het creëren van meerwaarde constant voorop stelde. Samen kijken hoe het nog mooier, bijzonderder en functioneler kan. Met een nog betere verhouding van opbrengsten en kosten. Zodat het plaatje klopt, op alle vlakken.",
+        "year": "2006",
+        "title": "Lancering Investeringskostenwijzer woningbouw",
+        "body": [ "Het kengetallenboek De Investeringskostenwijzer (IKW) Woningbouw wordt voor het eerst door Brink uitgegeven. De IKW geeft snel inzicht in de investerings- en onderhoudskosten van nieuwbouwwoningen. Er wordt specifiek aandacht gegeven aan de kostenconsequenties voor duurzaamheid, de effecten van het nieuwe Bouwbesluit en de kosten voor klantgericht bouwen." ],
+        "readMore": [ "Na lancering wordt het enthousiast in de markt ontvangen. Veel gebruikers wachten elk jaar op de nieuwe uitgave. De Investeringskostenwijzer Woningbouw wordt een aantal jaren uitgegeven, maar verliest uiteindelijk zijn relevantie door digitale ontwikkelingen." ],
+        "img": {
+            "src": "2006 Investeringskostenwijzer.jpg",
+            "alt": "Op een zonnige dag met heldere lucht gefotografeerd, het mijlpaalproject: ICC"
+        }
+    },
+    {
+        "year": "2007",
+        "title": "Brink en de Kredietcrisis",
+        "body": [ "De kredietcrisis slaat toe. Een impactvolle gebeurtenis in de bouw- en vastgoedsector. Gelukkig komt Brink er goed doorheen. Dat komt mede door de interne crisis uit 1992." ],
+        "readMore": [ "Door die crisis ontwikkelt Brink een hoge mate van flexibiliteit binnen de organisatie. Daarnaast speelt de differentiatie in producten en diensten ook een grote rol. Door de aanwezigheid van Brink Software zijn we deels actief in een andere markt, met een andere gevoeligheid." ]
+    },
+    {
+        "year": "2007",
+        "title": "SS Rotterdam",
+        "body": [ "The Grand Old Lady, de SS Rotterdam. Het laatste in Nederland gebouwde stoomschip. Onder de vlag van de Holland America Line voer zij als lijnschip tussen Rotterdam en New York. Uiteindelijk stierf het schip een stille dood… En werd vervolgens gered van de ondergang. Brink speelde daarin een belangrijke rol." ],
+        "readMore": [ "Een uniek project. Zo eentje die je nooit meer vergeet. De SS Rotterdam werd verbouwd en zou opnieuw haar thuis vinden in Rotterdam. Een omvangrijke opgave met veel verschillende partijen, belangen, werkzaamheden en regelgevingen. Brink was bouwmanager. Door het management te centraliseren ontstond meer grip op de kosten en planning. Zo kwam, na een turbulente tijd, de Grand Old Lady uiteindelijk toch nog in rustig vaarwater terecht." ],
+        "img": {
+            "src": "2007 SS Rotterdam.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2008",
+        "title": "Klaar voor de toekomst: Rijksmuseum",
+        "body": [ "Het Rijksmuseum sluit zijn deuren voor een grootscheepse verbouwing. Van complexe nieuwbouw, tot reconstruerende renovatie en de installatie van een hypermoderne energievoorziening. Brink is vier jaar lang betrokken als directievoerder en kostenadviseur." ],
+        "img": {
+            "src": "2008 Rijksmuseum.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2009",
+        "title": "Internationaal Strafhof",
+        "body": [ "Het Internationaal Strafhof krijgt een permanent onderkomen in Den Haag. Brink mag het projectmanagement en kostenadvies van dit complexe nieuwbouwproject verzorgen." ],
+        "readMore": [ "Het gebouw moet voldoen aan de allerhoogste veiligheidsvoorzieningen, en tegelijk ook toegankelijk voelen. Er komen diverse functies samen: rechtszalen, maar ook een kantooromgeving voor 1200 medewerkers. Een cultureel zeer diverse opdrachtgever bestaande uit 122 landen, maar ook diverse stakeholders als omwonenden, gemeente en ministerie van Justitie en Veiligheid.", "Een waanzinnige uitdaging om alles samen te brengen, binnen de gestelde tijd en budgetten. Het ICC wordt aangemerkt als een voorbeeldproject binnen de Verenigde Naties." ],
+        "img": {
+            "src": "2009 Internationaal Strafhof.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2010",
+        "title": "Financiële Quickscan Duurzaamheid",
+        "body": [ "Wat zijn de kansen van duurzaamheid in de vastgoedmarkt? Brink ontwikkelt in samenwerking met de Dutch Green Building Council de Financiële Quickscan Duurzaamheid. Duurzaamheidsvraagstukken, zoals een BREEAM-NL certificatie, kunnen hiermee gekwantificeerd worden. " ],
+        "img": {
+            "src": "2010 Financiele Quickscan Duurzaamheid.png",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2011",
+        "title": "Andere samenwerkingsvormen in de bouw",
+        "body": [ "De markt is in beweging. De economische crisis zorgt voor een terugval in de vraag naar nieuwbouw en renovatieactiviteiten, krimpende huisvestingsbudgetten en minder financieringsmogelijkheden voor project- en gebiedsontwikkelingen. In de bouw ontstaat een heel scala aan nieuwe samenwerkings- en contractvormen." ],
+        "readMore": [ "Er is behoefte aan ontzorging, risicobeheersing, een betere en meer duurzame kwaliteit van huisvesten en meer flexibiliteit.", "In deze periode werkt Brink met geïntegreerde contractvormen. Bijvoorbeeld in DBFMO projecten, zoals de aanbesteding voor de Hoge Raad der Nederlanden. Dit soort projecten dwingen tot een geïntegreerde aanpak waarbij juist het gebruik maatgevend is. Dat vraagt om een andere benadering en manier van denken, waarbij levenscyclus en ketenintegratie centraal staan." ],
+        "img": {
+            "src": "2011 - Andere samenwerkingsvormen in de bouw.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2011",
+        "title": "Brink introduceert IBISapps",
+        "body": [ "ASML groeit. Zo ook hun vraag naar kantoorhuisvesting. Brink werd uitgenodigd om aan het Masterplan te werken voor de ASML Campus 2.0. Een plan met zeven nieuwbouwprojecten, voor 16.000 ASML medewerkers. Maar als één van de snelst groeiende bedrijven van Nederland, zien ze dat getal elke maand groter worden. Hoe ga je dan om met je kantoorhuisvesting? Een mooie uitdaging, toegesneden op de campusexpertise van Brink." ],
+        "readMore": [ "IBISapps bestaat uit diverse applicaties in een webomgeving die gebruikers 24/7 realtime inzicht bieden in de projectstatus. Ook kan middels een rekenen & tekenen app de haalbaarheid van projecten geanalyseerd worden, op basis van geografische informatie en kengetallen.", "Een aantal van deze IBISapps zijn vandaag de dag nog steeds in gebruik."],
+        "img": {
+            "src": "2011 IBISapps.png",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2012",
+        "title": "Groeien in huisvestingsadvies: joint venture met innvire",
+        "body": [ "ASML groeit. Zo ook hun vraag naar kantoorhuisvesting. Brink werd uitgenodigd om aan het Masterplan te werken voor de ASML Campus 2.0. Een plan met zeven nieuwbouwprojecten, voor 16.000 ASML medewerkers. Maar als één van de snelst groeiende bedrijven van Nederland, zien ze dat getal elke maand groter worden. Hoe ga je dan om met je kantoorhuisvesting? Een mooie uitdaging, toegesneden op de campusexpertise van Brink." ],
+        "readMore": [ "Hiermee wordt specialistische kennis en ervaring in huis gehaald voor uitdagende opgaves. In 2018 gaat innvire als zelfstandige organisatie verder. Huisvestingsadvies blijft een belangrijke expertise binnen Brink." ],
+        "img": {
+            "src": "2012 innvire.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2013",
+        "title": "Overname Kontek",
+        "body": [ "Brink neemt partner Kontek over. Kontek adviseert op het gebied van onderhoud, kosten en duurzaamheid met slimme informatiseringsoplossingen. In 2019 fuseert Kontek met Brink Management en Advies." ],
+        "img": {
+            "src": "2013 Kontek.png",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
+    },
+    {
+        "year": "2013",
+        "title": "Herstructurering naar 4 BV’s",
+        "body": [ "Onder de vlag van Brink Groep gaan vanaf medio 2013 vier BV’s aan de slag: Ibis Software, Kontek, Brink Management & Advies en innvire." ],
         "img": false
     },
     {
         "year": "2015",
-        "title": "Klimaatverdrag van Parijs",
-        "body": "Nederland tekende samen met 194 andere landen het Klimaatverdrag van Parijs. Het doel is de opwarming op aarde te beperken tot 2 graden Celsius, maar liever nog tot 1,5 graad. In onze Klimaatwet staat dat we onze CO2 uitstoot moeten verlagen met 95%. Een enorme opgave. Hoe gaan we dat doen in de gebouwde omgeving? Hoe moeten gemeenten hun vastgoedportefeuille gaan verduurzamen? Hoe formuleer en vertaal je jouw duurzaamheidsambities naar maatregelen en certificering?",
+        "title": "Brink volledig in handen van de medewerkers",
+        "body": [ "In 2015 worden de laatste aandelen van Deddo Brink verkocht. Sindsdien zijn alle aandelen in handen van directie en medewerkers. Anno 2022 bezitten 96 medewerkers (ongeveer 40%) een stukje Brink." ],
+        "img": false
+    },
+    {
+        "year": "2015",
+        "title": "Leefbaarheid stimuleren met de Moerdijkregeling",
+        "body": [ "De ontwikkeling van het havengebied van Moerdijk heeft impact op de lokale woningmarkt en de leefbaarheid in het naastgelegen dorp Moerdijk. Brink staat aan de wieg van een impactvolle oplossing: de Moerdijkregeling." ],
+        "readMore": [ "Het havengebied in ontwikkeling leidt tot onzekerheid onder Moerdijkers met een eigen woning. Zij vragen zich af of ze hun huis nog wel verkocht krijgen.", "Zo komt de Moerdijkregeling tot stand. Brink is betrokken bij de ontwikkeling en de uitwerking. Met deze regeling hebben woningeigenaren zekerheid dat ze hun pand altijd kunnen verkopen aan de gemeente. Zo worden bewoners behouden en nieuwe inwoners aangetrokken.", "In 2022 is de regeling nog steeds in gebruik, maar deze wordt langzaam maar zeker overbodig. Hij is succesvol. De lokale woningmarkt functioneert goed. Rust en leefbaarheid zijn teruggekeerd." ],
         "img": {
-            "src": "12.png",
+            "src": "2015 Moerdijkregeling.jpg",
             "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
-        }
+        }    
     },
     {
-        "year": "2014",
-        "title": "Mijlpaalproject: Moerdijkregeling",
-        "body": "Het havengebied van Moerdijk is de vierde zeehaven van Nederland. In de afgelopen jaren zijn er diverse plannen voor uitbreiding geweest, in sommige plannen zou daarbij het nabijgelegen dorp Moerdijk geheel verdwijnen. Dat zette de leefbaarheid in het dorp onder druk. De toekomst was onzeker. Toen in 2014 het besluit viel dat het dorp bleef bestaan, kwam het vertrouwen niet terug. Inwoners vroegen zich af: kan ik mijn huis ooit nog verkopen? Zo kwam de Moerdijkregeling tot stand. Brink stond aan de wieg ervan. Met deze regeling hebben woningeigenaren zekerheid dat ze hun pand altijd kunnen verkopen aan de gemeente. Zo worden bewoners behouden en nieuwe inwoners aangetrokken. Na vijf jaar kon geconcludeerd worden: de Moerdijkregeling was succesvol. Er is financiële zekerheid doordat er een vangnet is gecreëerd voor de verkoopbaarheid van woningen. Ook leverde de regeling een bijdrage aan de leefbaarheid in Moerdijk. Dat is pas impact maken!",
-        "img": false
-    },
-    {
-        "year": "2018",
-        "title": "Mijlpaalproject: Brightlands Chemelot Campus",
-        "body": "Op basis van onze rol binnen de ontwikkeling van de High Tech Capus werden we in 2003 uitgenodigd door DSM om na te denken over een campus rond hun laboratoriums. Dat bleek een hele mooie opgave: 22 hectare terrein en gebouwen omvormen tot een hoogwaardige research- en businesscampus. We ontwikkelden een Masterplan, dat werd uitgewerkt tot business case en we werkten mee aan de totale transformatie van de campusorganisatie. We bewaakten het concept en werkten het verder uit. Welke faciliteiten leveren toegevoegde waarde voor welke doelgroepen? Waar passen ze op het terrein? Zo ontstonden GMP cleanrooms, parkeerfaciliteiten maar ook multi-tenant gebouwen voor scale-ups. We verzorgden het projectmanagement en de bijbehorende aanbestedingen. We waren (concept)ontwikkelaar, gebiedsregisseur, (huisvestings)adviseur en projectmanager in één. Zo omvangrijk en integraal, zo zien we het het liefst.",
-        "img": false
-    },
-    {
-        "year": "2018 - 2021",
-        "title": "Mijlpaalproject: Boijmans van Beuningen (renovatie en Depot)",
-        "body": null,
+        "year": "2017",
+        "title": "Kantoor Groningen wordt opgericht",
+        "body": [ "Brink gaat aan de slag in Groningen om te werken aan een oplossing die uiteindelijk het Koopinstrument zal worden. Speciaal voor huiseigenaren in Groningen die hun woning niet verkocht krijgen vanwege de aardbevingsproblematiek." ],
+        "readMore": [ "Het blijft niet bij het Koopinstrument. We besluiten om ons in Groningen te vestigen. Er wordt passende huisvesting gezocht en inmiddels staat er een ambitieus Brink team. Nu kunnen we ook vanuit deze regio werken aan uiteenlopende opgaven in bouw, vastgoed en infra." ],
         "img": false
     },
     {
         "year": "2019",
-        "title": "Mijlpaalproject: Tweede Kamer (check JK)",
-        "body": null,
-        "img": false
+        "title": "Nieuwe directievoorzitter",
+        "body": [ "Adriaan Visser wordt de nieuwe directievoorzitter van Brink. Onder zijn leiding profileert Brink zich nadrukkelijker als integrale partner voor complexe opgaven in bouw, infra en vastgoed. Het directieteam bestaat verder nog uit Erik Deiman en Peter Timmermans." ],
+        "readMore": [ "De uitdagingen in de markt worden groter. Woningtekort, klimaatverandering, technologische ontwikkelingen. Om klanten beter te helpen die uitdagingen het hoofd te bieden, zet Brink in op een integrale aanpak. Brink Groep, Brink Management / Advies en Ibis Software gaan vanaf nu verder onder één gezamenlijke naam: Brink. Kloppend Hart van bouw, infra en vastgoed." ],
+        "img": {
+            "src": "2019 Adriaan Visser.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
     },
     {
         "year": "2019",
-        "title": "Mijlpaalproject: ASML",
-        "body": "ASML groeit. Zo ook hun vraag naar kantoorhuisvesting. Brink werd uitgenodigd om aan het Masterplan te werken voor de ASML Campus 2.0. Een plan met zeven nieuwbouwprojecten, voor 16.000 ASML medewerkers. Maar als één van de snelst groeiende bedrijven van Nederland, zien ze dat getal elke maand groter worden. Hoe ga je dan om met je kantoorhuisvesting? Een mooie uitdaging, toegesneden op de campusexpertise van Brink.",
-        "img": false
+        "title": "Strategisch huisvestingsadviseur voor ASML",
+        "body": [ "ASML, wereldspeler in chipmachines en enorm snelgroeiend. De vraag naar kantoorhuisvesting groeit mee. Een opgave met ruim 14.000 collega’s. Een getal dat steeds verder oploopt. Dat vraagt om slim strategisch huisvestingsadvies. Een mooie uitdaging voor Brink." ],
+        "readMore": ["Het hoofdkantoor en bedrijvencomplex van ASML vind je in Veldhoven. Innovatie meets maakindustrie: R&D evenals assemblage in cleanrooms.", "Mede door hun drang naar innovatie groeit ASML in rap tempo. Om aan de huisvestingsvraag te voldoen is er een masterplan voor hun gehele kantoorhuisvesting ontwikkeld: de Campus 2.0. Brink is aangetrokken als strategisch huisvestingsadviseur om te werken aan dit plan. Het omvat zeven nieuwbouwprojecten en zal uiteindelijk een plek bieden aan 16.000 ASML medewerkers. Een waanzinnige opgave, waar we vanuit Brink met diverse expertises aan werken." ],
+        "img": {
+            "src": "2019 ASML.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
     },
     {
-        "future": true,
-        "year": "2025",
-        "title": "In de stad van brink is altijd wat te zien",
-        "body": "Al 50 jaar bouwen we aan de steden waar we zo van houden. Dat doen we samen. Het liefst aan zo complex mogelijke opgaven. Daar krijgen we energie van. We hebben het geluk om als Brink kantoor te houden in drie steden: Rotterdam, Eindhoven en Groningen. Elke stad is, op zijn eigen manier, volop in ontwikkeling. De gebouwde omgeving verandert met de dag. Juist wanneer we op kantoor werken, voelt het alsof we daar middenin zitten. Het kloppend hart van Brink.",
-        "img": false
+        "year": "2021",
+        "title": "Depot Boijmans van Beuningen",
+        "body": [ "Boijmans van Beuningen besluit tijdens hun jarenlange verbouwing de collectie niet op te sluiten, maar permanent toegankelijk te maken in een nieuw gebouw. In de laatste fase van dit project werd Brink betrokken als directievoerder en projectmanager." ],
+        "readMore": [ "MVRDV tekende dit eerste publiek toegankelijke kunstdepot ter wereld: het Depot-gebouw. Hier gaat het om alles wat je níet ziet als je een tentoonstelling bekijkt.", "Je loopt door 173 jaar kunst verzamelen, meer dan 151.000 kunstobjecten. Je ziet restaurateurs aan het werk, om de kunst in optima forma te houden. Een uniek concept, wat hoge en specifieke eisen stelt aan het gebouw wat het huist. Klimaattechniek, brand- en inbraakbeveiliging, slimme energievoorzieningen.", "In de laatste fase van dit bijzondere project mochten wij ook een bijdrage leveren. We zorgden dat de lijst met restpunten na oplevering afgewerkt werd. En we zorgden voor een goede overdracht van eigenaar (gemeente Rotterdam) naar huurder (Boijmans van Beuningen). Het resultaat: een nieuw icoon voor Rotterdam. De skyline zal nooit meer hetzelfde zijn."],
+        "img": {
+            "src": "2021_Boijmans_van Beuningen.jpg",
+            "alt": "Promotie pamflet van de klimaatverdrag conferentie van 2015"
+        }    
     },
     {
         "future": true,
         "year": "2030",
-        "title": "Leader in digital real estate",
-        "body": "Brink is de grootste speler in het digitale vastgoed. De metaverse is van ons!",
-        "img": {
-            "src": "13.png",
-            "alt": "Brinks eigen stukje digital real estate in de meta verse!"
-        }
-    },
-        {
-        "future": true,
-        "year": "2025",
-        "title": "In de stad van brink is altijd wat te zien",
-        "body": "Al 50 jaar bouwen we aan de steden waar we zo van houden. Dat doen we samen. Het liefst aan zo complex mogelijke opgaven. Daar krijgen we energie van. We hebben het geluk om als Brink kantoor te houden in drie steden: Rotterdam, Eindhoven en Groningen. Elke stad is, op zijn eigen manier, volop in ontwikkeling. De gebouwde omgeving verandert met de dag. Juist wanneer we op kantoor werken, voelt het alsof we daar middenin zitten. Het kloppend hart van Brink.",
-        "img": false
-    },
-    {
-        "future": true,
-        "year": "2030",
-        "title": "Leader in digital real estate",
-        "body": "Brink is de grootste speler in het digitale vastgoed. De metaverse is van ons!",
-        "img": {
-            "src": "13.png",
-            "alt": "Brinks eigen stukje digital real estate in de meta verse!"
-        }
+        "title": "",
+        "body": [ "De opgaven voor de bouw-, vastgoed- en infrasector zijn nog steeds enorm. Betaalbare woningen en bereikbaarheid blijven een uitdaging. Net als circulair en energieneutraal bouwen. Of de verduurzaming van bestaand vastgoed. Klimaatadaptief bouwen wordt steeds meer de norm, zodat de gebouwde omgeving beter bestand is tegen klimaatverandering.", "Stuk voor stuk uitdagende, complexe vraagstukken. Brink werkt er in 2030 vol overgave aan. Vanuit management, advies én software. Op zoek naar duurzame, doordachte en innovatieve oplossingen.", "Samen met alle Brinkers en hun expertises. En onze partners in de keten. Zo helpen we onze klanten steeds verder. En dragen we bij aan een duurzame en leefbare maatschappij.", "Brink, kloppend hart van bouw, infra en vastgoed."]
     }
 ]
