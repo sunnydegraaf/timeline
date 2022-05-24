@@ -23,7 +23,7 @@ export default function Content(props) {
       {props.body && props.body.map(element => {
         return <p>{element}</p>
       })}
-      { props.link && <a href={props.link.href}>{props.link.text}</a> }
+      { props.link && <a target="_blank" href={props.link.href}>{props.link.text} →</a> }
       {props.readMore &&
         <div className='read-more'>
           <span onClick={() => setExpanded(!expanded)}>

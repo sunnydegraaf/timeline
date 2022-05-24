@@ -95,7 +95,6 @@ section.future .odd, section.future .even {
 }
 
 h2 {
-  text-transform: capitalize;
   font-size: 30px;
   font-weight: inherit;
 }
