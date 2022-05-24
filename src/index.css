@@ -368,6 +368,9 @@ section.future:last-child div.seperator {
   }
 }
 
+.content p {
+  margin-top: 30px;
+}
 
 @media only screen and (min-width: 900px) {
 
@@ -440,10 +443,6 @@ section.future:last-child div.seperator {
     font-weight: 400;
   }
 
-  .content p {
-    margin-top: 30px;
-  }
-
   .image {
     width: 30%;
   }
@@ -451,4 +450,8 @@ section.future:last-child div.seperator {
   .odd .image {
     text-align: right;
   }
+}
+
+.read-more {
+  overflow: hidden;
 }
