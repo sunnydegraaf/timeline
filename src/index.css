@@ -227,6 +227,7 @@ section.future:last-child div.seperator {
 }
 
 .read-more > span {
+  cursor: pointer;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
