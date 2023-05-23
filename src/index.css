@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Source+Serif+Pro:wght@300;400;700&display=swap');
 
 html {
-  border-top: 2px solid #f300ec;
+  border-top: 2px solid #d100e8;
 }
 
 body {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .share a, .content a {
-  color: #f300ec;
+  color: #d100e8;
 }
 
 .share li {
@@ -184,7 +184,7 @@ h2 {
 }
 
 .image h2 {
-  color: #e83e8c;
+  color: #d100e8;
   overflow: hidden;
   font-weight: 600;
   font-size: 60px;
@@ -232,7 +232,7 @@ section.future:last-child div.seperator {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #f300ec;
+  color: #d100e8;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -250,7 +250,7 @@ section.future:last-child div.seperator {
 .read-more > span i svg {
   transform-origin: center;
   position: absolute;
-  fill: #f300ec;
+  fill: #d100e8;
 }
 
 @media only screen and (max-width: 899px) {
