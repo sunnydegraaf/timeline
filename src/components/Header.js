@@ -1,5 +1,5 @@
 import React from 'react'
-import BrinkLogo from '../img/logo.svg'
+import BrinkLogo from '../img/BRINK-RGB.jpg'
 
 export default function Header() {
 
@@ -15,7 +15,7 @@ export default function Header() {
     <div className='header'>
         <a href='https://www.brink.nl/' id='go-to'>Naar website</a>
         <img className='logo' src={BrinkLogo} alt={'Brink logo'}/>
-        <h1>Al 50 jaar een kleurrijke reis door de gebouwde omgeving</h1>
+        <h1>Al <em>meer dan</em> 50 jaar een kleurrijke reis door de gebouwde omgeving</h1>
         <ul className='share'>
             <li>Deel</li>
             <li><a href={`https://twitter.com/share?url=${link}&via=brink_nl`}>Twitter</a></li>

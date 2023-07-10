@@ -226,6 +226,13 @@ section.future:last-child div.seperator {
   display: none;
 }
 
+em {
+  font-style: normal;
+  background: yellow;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .read-more > span {
   cursor: pointer;
   margin-top: 30px;
