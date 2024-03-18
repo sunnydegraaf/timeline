@@ -283,6 +283,15 @@
         "img": false
     },
     {
+        "year": "2023",
+        "title": "Overname PM2",
+        "body": [ "Brink neemt PM2 over, een gespecialiseerd advies- en projectmanagementbureau in hoogwaardige laboratoriumomgevingen. Deze strategische stap creëert een van de meest omvangrijke expertisegroepen in Nederland op het gebied van bouw en renovatie van technisch complexe laboratoria en cleanrooms, met een sterke focus op hightech en biosciences." ],
+        "img": {
+            "src": "2023 overname PM2.jpg",
+            "alt": "Man in lab jas aan het werk in een laboratorium"
+        }
+    },
+    {
         "future": true,
         "year": "2030",
         "title": "Betekenisvol meebouwen",
